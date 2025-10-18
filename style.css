@@ -1,4 +1,4 @@
-/* 🌄 Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 /* 🎨 Theme Colors */
@@ -9,14 +9,14 @@
   --text: #333333;
 }
 
-/* 🏔️ General Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* 🌱 Body */
+
 body {
   font-family: 'Nunito', sans-serif;
   background-color: var(--background);
@@ -25,7 +25,7 @@ body {
   padding: 20px;
 }
 
-/* 🧭 Header */
+
 header {
   background: linear-gradient(90deg, var(--primary), var(--accent));
   color: white;
@@ -44,7 +44,7 @@ header h1 {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-/* 🧭 Navigation */
+
 nav ul {
   list-style: none;
   margin-top: 10px;
@@ -70,12 +70,12 @@ nav a:hover {
   transform: scale(1.1);
 }
 
-/* 🏞️ Main Content */
+
 main {
   animation: fadeIn 1s ease-in-out;
 }
 
-/* 🪵 Sections */
+
 section {
   margin: 30px auto;
   padding: 25px;
@@ -91,7 +91,7 @@ section:hover {
   transform: scale(1.02);
 }
 
-/* 🖼️ Images */
+
 img {
   display: block;
   margin: 20px auto;
@@ -101,7 +101,7 @@ img {
   width: 80%;
 }
 
-/* 📋 Tables */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -139,7 +139,7 @@ aside {
   font-size: 1.1em;
 }
 
-/* 📎 Footer */
+
 footer {
   text-align: center;
   background-color: var(--primary);
@@ -160,7 +160,7 @@ footer a:hover {
   color: white;
 }
 
-/* ✨ Buttons (for contact form) */
+
 button {
   background-color: var(--primary);
   color: white;
@@ -177,7 +177,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* 💫 Animations */
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
